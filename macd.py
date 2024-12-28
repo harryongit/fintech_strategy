@@ -8,6 +8,7 @@ from backtesting import Backtest, Strategy
 from backtesting.lib import crossover
 
 # Define stock symbols and CSV file paths
+
 csv_files = {
     'ITC': '/home/ubuntu/Desktop/stock/stockmkt/data/1day/day/ITC.csv',
     'TATAMTR': '/home/ubuntu/Desktop/stock/stockmkt/data/1day/day/TATAMTRDVR.csv',
