@@ -7,6 +7,7 @@ import time
 from backtesting import Backtest, Strategy
 from backtesting.lib import crossover
 
+
 # Paths to CSV files
 csv_files = {
     'VGUARD': '/home/ubuntu/Desktop/stock/stockmkt/data/3minute/VGUARD.csv',
@@ -20,6 +21,7 @@ cash = 10000
 commission = 0.0025
 exclusive_orders = True
 zone_width = 0.01
+
 
 def get_stock_data(file_path):
     data = pd.read_csv(file_path, parse_dates=['date'], index_col='date')
