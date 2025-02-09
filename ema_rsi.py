@@ -91,5 +91,6 @@ def main():
     else:
         print("No buy or sell signals detected.")
 
+
 if __name__ == "__main__":
     main()
