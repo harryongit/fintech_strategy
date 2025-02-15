@@ -10,6 +10,7 @@ from backtesting.lib import crossover
 from concurrent.futures import ThreadPoolExecutor
 import time
 
+
 # Define stock symbols and CSV file paths
 csv_files = {
     'WIPRO': '/home/ubuntu/Desktop/stock/stockmkt/data/3minute/WIPRO.csv',
