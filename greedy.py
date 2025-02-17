@@ -9,6 +9,7 @@ csv_files = {
     'AXISBANK': '/path/to/AXISBANK.csv',
 }
 
+
 # Define parameters for backtesting
 cash = 100000  # Initial capital for the backtest
 commission = 0.002  # Commission rate for each trade
