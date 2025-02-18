@@ -6,6 +6,7 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 from sklearn.cluster import KMeans
 
+
 # Define the file paths for CSV data of different stocks
 csv_files = {
     'VGUARD': '/path/to/VGUARD.csv',
