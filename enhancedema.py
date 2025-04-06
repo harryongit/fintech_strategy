@@ -23,7 +23,6 @@ cash = 10000
 commission = .002
 exclusive_orders = True
 
-
 def get_stock_data(file_path):
     if not os.path.isfile(file_path):
         raise FileNotFoundError(f"The file {file_path} does not exist.")
