@@ -7,7 +7,6 @@ import time
 from backtesting import Backtest, Strategy
 from backtesting.lib import crossover
 
-
 # Paths to CSV files
 csv_files = {
     'VGUARD': '/home/ubuntu/Desktop/stock/stockmkt/data/3minute/VGUARD.csv',
