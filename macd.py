@@ -7,6 +7,7 @@ import time
 from backtesting import Backtest, Strategy
 from backtesting.lib import crossover
 
+
 # Define stock symbols and CSV file paths
 
 csv_files = {
