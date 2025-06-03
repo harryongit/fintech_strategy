@@ -1,7 +1,6 @@
 import pandas as pd
 from backtesting import Backtest, Strategy
 
-
 # Define the file paths for CSV data of different stocks
 csv_files = {
     'VGUARD': '/path/to/VGUARD.csv',
